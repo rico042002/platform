@@ -202,6 +202,7 @@ type SupportSettings struct {
 type TeamSettings struct {
 	SiteName                         string
 	MaxUsersPerTeam                  int
+	MaxChannelsPerTeam		 int
 	EnableTeamCreation               bool
 	EnableUserCreation               bool
 	EnableOpenServer                 *bool
